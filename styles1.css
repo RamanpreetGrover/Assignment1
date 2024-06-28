@@ -1,0 +1,71 @@
+.playwrite-ng-modern-<uniquifier> {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+nav {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Playwrite NG Modern;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    background-color: rgb(168, 95, 0);
+    transition: ease-out;
+    box-shadow: #f1f1f1;
+    color: #f9f9f9;
+    transform:inherit;
+  }
+body, h1, h2, p, ul, li, form, input, textarea, button {
+    margin: 1%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Playwrite NG Modern;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+form button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Playwrite NG Modern;
+}
+form button:hover {
+    background-color: rgb(168, 95, 0);
+    transition: ease-out;
+    box-shadow: #f1f1f1;
+    color: #f9f9f9;
+    transform:inherit;
+}
+section {
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: Playwrite NG Modern;
+}
