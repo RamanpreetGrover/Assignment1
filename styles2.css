@@ -1,0 +1,120 @@
+.playwrite-ng-modern-<uniquifier> {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    font-family: Playwrite NG Modern;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    background-color: rgb(168, 95, 0);
+    transition: ease-out;
+    box-shadow: #f1f1f1;
+    color: #f9f9f9;
+    transform:inherit;
+  }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    position:relative;
+    bottom: 1px;
+    width: 100%;
+    font-family: Playwrite NG Modern;
+}
+section {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+section {
+    margin-bottom: 10px;
+    font-family: Playwrite NG Modern;
+}
+h2 {
+    font-family: Playwrite NG Modern;
+}
+iframe {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+  }
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+ @keyframes slidein {
+    from {transform: translateY(100%);}to{transform: translateY(0);}
+}
+.interactive-image {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 360px;
+    height: 360px;
+    animation: slidein 3s ;
+    transition: bottom;
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-family: "Playwrite NG Modern";
+  }
+  
+.image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+.image-container:hover .overlay-text {
+    opacity: 1;
+  }

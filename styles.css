@@ -40,7 +40,7 @@ header {
     background-color: transparent;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
 nav ul {
@@ -64,3 +64,13 @@ a:hover {
     color: #f9f9f9;
     transform:inherit;
   }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Playwrite NG Modern;
+}
